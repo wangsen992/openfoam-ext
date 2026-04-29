@@ -1,0 +1,9 @@
+#!/bin/bash
+
+wmake src/utilityFuncs
+wmake src/surfaceMeshTools
+wmake src/urbanModels
+
+wmake applications/solvers/atmTestFoam
+wmake applications/utilities/csv2var
+wmake applications/utilities/setFieldsABL

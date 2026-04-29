@@ -1,0 +1,5 @@
+#!/bin/bash
+
+wmake solvers/atmTestFoam
+wmake utilities/csv2var
+wmake utilities/setFieldsABL
